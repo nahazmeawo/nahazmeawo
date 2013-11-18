@@ -1,0 +1,214 @@
+::selection {
+	background: #c70066;
+	color: #fff;
+}
+html {
+	background: url(../img/gunnup.jpg) no-repeat top center !important;
+	background-size: cover !important;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/********** Logo/Message Styles **************/
+
+
+#topband {
+	width: 100%;
+	height: 11px;
+	position: absolute;
+	top: -3px;
+	background: #c70066;
+}
+.container {
+	width: 530px;
+	height: 800px;
+	float: left;
+	background-color: #000;
+	opacity: 0.7;
+	margin-top: 8px;
+	border-right: 5px dashed #fff;
+	border-left: 5px dashed #fff;
+	margin-left: 35px;
+}
+#logo {
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 135px;
+	margin-bottom: 20px;
+}
+#logoheader {
+	margin: 0 auto;
+	width: 247px;
+}
+#logoheader p {
+	padding-top: 20px;
+	font-family: 'Arial';
+	font-size: 36px;
+	color: #FFF;
+}
+#message {
+	width: 520px;
+	margin: 0 auto;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	;
+	font-size: 28px;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	margin-top: 35px;
+}
+#message p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 10px solid #fff;
+	position: relative;
+	z-index: 10;
+	margin: 0 auto;
+	margin-bottom: -10px;
+}
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 14px solid #fff;
+	position: relative;
+	z-index: 10;
+	margin: 0 auto;
+	margin-bottom: -10px;
+}
+/********** Social Icons **************/
+
+#socialicons {
+	width: 515px;
+	height: 52px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+#socialicons div {
+	display: inline-block;
+	float: none !important;
+	margin-right: 8px;
+}
+#socialicons div:last-child {
+	margin-right: 0;
+}
+#facebook {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#facebook:hover {
+	background-color: #385998;
+}
+#twitter {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#twitter:hover {
+	background-color: #34CCFE;
+}
+#dribbble {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#dribbble:hover {
+	background-color: #EA4C89;
+}
+#behance {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#behance:hover {
+	background-color: #696F75;
+}
+#skype {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#skype:hover {
+	background-color: #00AFF0;
+}
+#deviant {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#deviant:hover {
+	background-color: #5E7163;
+}
+#youtube {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#youtube:hover {
+	background-color: #BD0903;
+}
+#instagram {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#instagram:hover {
+	background-color: #4D7B9F;
+}
+#linkedin {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#linkedin:hover {
+	background-color: #3282A0;
+}
+#email {
+	width: 52px;
+	height: 52px;
+	border: 1px solid #9D9D9D;
+	-moz-transition: all .2s ease-in-out 0s;
+	-webkit-transition: all .2s ease-in-out 0s;
+}
+#email:hover {
+	background-color: #00A12A;
+}
+#copyrighttext {
+	font-family: 'Arial';
+	font-size: 13px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 40px;
+}
